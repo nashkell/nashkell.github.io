@@ -1,0 +1,302 @@
+/* Typography */
+ a, a:hover, a:active, a:visited {
+color: #FFA300;
+text-decoration: none;
+}
+
+
+.rokkitt {
+  font-family:"Rokkitt","Lato","Karla";
+}
+
+.headroom {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: center;
+            background: #fff;
+
+
+
+}
+.navbar-default.headroom--pinned {
+
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%)
+}
+.headroom--unpinned {
+        background-color: transparent;
+
+    background-color: #fff;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%)
+}
+
+
+
+body {
+	font-family:"Open Sans","Lato","Karla";
+	 font-weight:200;
+	 font-size:16px;
+	 line-height:1.6;
+	 color:#6e6e6e;
+	 letter-spacing: .03rem;
+	 padding-top: 100px;
+
+}
+
+
+.container {
+width: 90%;
+max-width: 1200px;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	/*font-family:inherit;*/
+  font-family:"Rokkitt","Lato","Karla";
+	font-weight:200;
+	line-height:1.1;
+	color:inherit;
+		 font-weight:200;
+
+}
+h1,.h1,h2,.h2,h3,.h3 {
+	margin-top:0;
+	margin-bottom:10px;
+	
+}
+
+h1, .h1 {
+    font-size: 42px;
+}
+
+p {
+	margin:0 0 40px;
+}
+.back {
+	background: #444;
+}
+.lead {
+margin-bottom: 40px;
+font-size: 26px;
+line-height: 1.4;
+font-weight:200;
+
+}
+
+label {
+  font-weight: inherit;
+}
+
+#page1 .link1, #page2 .link2, #page4 .link4 {
+  color: #FFA300;
+}
+
+.item a {
+position: absolute;
+top: 0;
+height: 100%;
+width: 100%;
+background: rgba(243, 243, 243, 0.0);
+opacity: 0;
+}
+
+.item a:hover {
+
+opacity: 1;
+}
+
+
+
+
+.item h2{
+opacity: 1; 
+
+
+font-size: 22px;
+display: inline-block;
+width: auto;
+}
+
+.item img{
+width: 100%
+}
+
+.item  {
+	display: block;
+	position: relative;
+			padding-bottom:0;
+
+}
+
+.item  h2{ 
+margin-top: 53px;
+
+}
+
+.item h2 {
+position: absolute;
+width: auto;
+/*top: 55%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+letter-spacing: 2px;
+text-align: center;*/
+margin-top: 0;
+padding:  50px 40px;
+} 
+
+
+
+
+
+/* Space */
+.row .row {
+	margin-top:10px;
+	margin-bottom:0;
+}
+[class*="col-"] {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+hr {
+	margin-top:70px;
+	margin-bottom: 70px;
+
+border: 0;
+border-top: 1px solid transparent;
+}
+
+.logo {
+  padding-top: 15px;
+}
+
+/* Header */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+}
+.navbar-toggle {
+position: relative;
+float: right;
+padding: 9px 10px;
+margin-top: 8px;
+margin-right: 15px;
+margin-bottom: 8px;
+background-color: transparent;
+background-image: none;
+border: 0;
+border-radius: 4px;
+}
+
+     .navbar-header, ul.nav {
+                     padding-top:10px;
+
+    }
+    
+         .navbar-nav {
+       
+    }
+    
+         .navbar .header {
+height: 70px;            
+
+    }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+                     border: 0;
+                     background-color: transparent;
+                                          background: rgba(255, 255, 255, 1);
+
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #777;
+font-size: 20px;
+padding: 30px 0 15px 0;
+font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-nav>li>a {
+      padding: 0;
+    }
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color:#FFA300;
+}
+
+.nav>li {
+padding: 10px 4%;
+text-align: left;
+}
+
+@media screen and (max-width: 937px) {
+    .navbar-default .navbar-nav>li>a {
+      font-size: 19px;
+    }
+}
+
+
+
+.nav>li:first-child {
+padding-left: 0;
+}
+
+.nav>li:last-child {
+padding-right: 0;
+
+
+}
+
+
+ul.nav {
+
+width:50%
+
+}
+
+.navbar-brand {
+float: left;
+padding: 0;
+font-size: 18px;
+line-height: 20px;
+padding-top: 4px;
+padding-left: 15px;
+
+}
+
+.navbar-default {
+border: 0;
+
+background-color: transparent;
+}
+
+@media screen and (max-width:767px) {
+.navbar-nav {
+margin: 0
+}
+.nav>li {
+padding: 10px 0;
+}
+
+}
+
+
