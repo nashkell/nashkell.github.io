@@ -90,3 +90,9 @@ html {
 	-webkit-transition-duration: 0.35s;
 	transition-duration: 0.35s;
 }
+
+@media screen and (max-width: 480px) {
+    .effect-caption {
+    opacity: 1;
+    }
+}
