@@ -36,6 +36,10 @@ html {
 	height: 65%;
 }
 
+.archive .effect-caption figcaption > div {
+	height: 75%;
+}
+
 @media screen and (max-width: 767px) {
     .effect-caption figcaption > div {
     width: 100%;
